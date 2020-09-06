@@ -1,4 +1,4 @@
-version="1.9.1.0"
+version="1.9.3.6"
 tags={
 	"Fixes"
 	"Gameplay"
