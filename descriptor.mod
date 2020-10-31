@@ -1,4 +1,4 @@
-version="1.9.3.7"
+version="1.10.x"
 tags={
 	"Fixes"
 	"Gameplay"
@@ -9,5 +9,5 @@ dependencies={
 	"Improved Historical MP"
 }
 name="Improved Historical MP NATO Counters"
-supported_version="1.9.*"
+supported_version="1.10.*"
 remote_file_id="2049657516"
