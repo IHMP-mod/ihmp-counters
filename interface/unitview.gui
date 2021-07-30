@@ -328,16 +328,15 @@ guiTypes = {
 		buttonType = {
 			name ="army_item_bg"
 			quadTextureSprite = "GFX_theatre_army_shield"
-			position = { x = 8 y = 3 } #MPU Align the icon - Currently selected army or armygroup
-			scale = 0.75
+			position = { x = 15 y = 0 }
 			frame = 1
 		}
 
 		instantTextBoxType = {
 			name = "armies_count_box"
-			position = { x = 44 y = 15 } #MPU move the selected army group's unit count to match theatre window
-			font = "hoi_16mbs"	#MPU
-			maxWidth = 25	#MPU
+			position = { x = 25 y = 9 }
+			font = "hoi_18mbs"
+			maxWidth = 28
 			maxHeight = 23
 			fixedsize = yes
 			format = center
@@ -347,8 +346,8 @@ guiTypes = {
 
 		editBoxType = {
 			name = "group_name"
-			position = {x=70 y=10} #MPU
-			size = {x=148 y=23} #MPU
+			position = {x=66 y=10}
+			size = {x=135 y=23}
 			font = "hoi_18"
 			text = ""
 			#maxWidth = 300
@@ -359,14 +358,14 @@ guiTypes = {
 		buttonType = {
 			name ="army_group_item_button"
 			quadTextureSprite = "GFX_theatre_army_group_shield"
-			position = { x = 215 y = 6 } #MPU
-			scale = 0.7
+			position = { x = 195 y = 6 }
+			scale = 0.9
 		}
 
 		instantTextBoxType = {
 			name = "army_group_count_box"
-			position = { x = 239 y = 17 } #MPU
-			font = "hoi_16mbs" #MPU
+			position = { x = 203 y = 13 }
+			font = "hoi_18mbs"
 			maxWidth = 28
 			maxHeight = 23
 			fixedsize = yes
@@ -1213,7 +1212,7 @@ guiTypes = {
 		buttonType = {
 			name ="btn_army"
 			quadTextureSprite = "GFX_theatre_army_shield"
-			position = {x=341 y=-2} #MPU Icon of Army that Div belongs to
+			position = {x=359 y=1}
 			frame = 1
 			pdx_tooltip = "DIVISION_VIEW_SELECT_ARMY"
 		}
