@@ -1661,7 +1661,8 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "regiments_grid"
-				position = { x = 110 y = 78 }
+				# position = { x = 110 y = 78 }
+				position = { x = 192 y = 78 }
 				size = { width = 445 height = 100%% }
 				slotsize = { width = 82 height = 51 }
 				format = "UPPER_LEFT"
