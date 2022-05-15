@@ -1,4 +1,4 @@
-version="1.10.x"
+version="1.11.x"
 tags={
 	"Fixes"
 	"Gameplay"
@@ -6,8 +6,8 @@ tags={
 	"Historical"
 }
 dependencies={
-	"Improved Historical MP"
+	"Ultra Historical Mod - Realism Overhaul"
 }
-name="Improved Historical MP NATO Counters"
-supported_version="1.10.*"
-remote_file_id="2049657516"
+name="Ultra NATO Counters"
+supported_version="1.11.*"
+remote_file_id="2808641619"
